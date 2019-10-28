@@ -22,7 +22,6 @@ body {
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(garden.jpg);
   background-size: cover;
   border-radius: 3px;
-  box-shadow: ;
   width: 70vw;
   height: 100vh;
   margin: 0;
@@ -52,8 +51,24 @@ body {
   justify-content: space-between;
   width: 100%;
 }
+
 .footer p {
   margin: 0 10px;
+}
+
+.footer-mobile {
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.footer-mobile p {
+  margin: 0 10px;
+}
+
+#footer-contact {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 540px) {
@@ -62,5 +77,11 @@ body {
   }
   .content {
     width: 100vw;
+  }
+  .footer {
+    display: none;
+  }
+  .footer-mobile{
+    display: block;
   }
 }
