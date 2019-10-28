@@ -55,3 +55,12 @@ body {
 .footer p {
   margin: 0 10px;
 }
+
+@media (max-width: 540px) {
+  .logo {
+    width: 70vw;
+  }
+  .content {
+    width: 100vw;
+  }
+}
